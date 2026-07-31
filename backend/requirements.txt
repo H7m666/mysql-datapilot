@@ -1,0 +1,38 @@
+# MySQL DataPilot Backend Dependencies
+# Python 3.10+
+
+# ── Web Framework ──────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# ── Database ───────────────────────────────
+sqlalchemy>=2.0.25
+pymysql>=1.1.0
+cryptography>=42.0.0
+
+# ── AI / LangChain ─────────────────────────
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+langgraph-checkpoint>=0.1.0
+tiktoken>=0.7.0
+
+# ── Data Processing ────────────────────────
+pandas>=2.2.0
+numpy>=1.26.0
+
+# ── HTTP Client ────────────────────────────
+requests>=2.31.0
+httpx>=0.27.0
+
+# ── Scheduling ─────────────────────────────
+apscheduler>=3.10.4
+
+# ── Configuration ──────────────────────────
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# ── Utilities ──────────────────────────────
+python-dateutil>=2.8.0
