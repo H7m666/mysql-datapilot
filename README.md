@@ -3,7 +3,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/)
 [![Vue](https://img.shields.io/badge/vue-3.x-brightgreen.svg)](https://vuejs.org/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-ReAct-orange.svg)](https://langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-ReAct-orange.svg)](https://www.langchain.com/langgraph)
+[![GitHub stars](https://img.shields.io/github/stars/H7m666/mysql-datapilot?style=social)](https://github.com/H7m666/mysql-datapilot)
 
 > **Most MySQL + LLM projects answer questions. This one fetches the data first, then answers.**
 
