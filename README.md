@@ -105,8 +105,17 @@ npm run dev
 ```
 
 ### 5. 访问
-- 🖥️ **前端界面**: http://localhost:5173
-- 📖 **API 文档**: http://localhost:8000/docs
+
+- 🖥️ **前端 (AI 助手)**：http://localhost:5173
+- 📖 **API 文档 (Swagger)**：http://localhost:8000/docs
+- 🩺 **健康检查**：http://localhost:8000/api/health
+
+## 版本历史
+
+| 版本 | 日期 | 主要更新 |
+| :--- | :--- | :--- |
+| v2.0 | 2026-07-31 | 统一响应格式、trace_id 链路追踪、422 精准校验、CORS 全本地 IP 支持、可选 Token 鉴权、SQL 最大行数限制 |
+| v1.0 | 2026-07-30 | 初始版本，LangGraph ReAct Agent、外部数据同步、HITL 审批、定时调度、数据血缘 |
 
 ## 项目结构
 
